@@ -1,0 +1,76 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0009;
+}
+
+.parent{
+    margin-top: 150px;
+}
+
+.parent .child {
+    width: 350px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 20px #fff9;
+    margin: auto;
+    background-color: darkcyan;
+    color: white;
+}
+
+.parent .child form h1{
+    text-align: center;
+}
+
+.parent .child form .inp input {
+    width: 90%;
+    margin: 10px 0px 0px 10px;
+    padding: 5px;
+    outline: none;
+    border: none ;
+}
+
+.parent .child form a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+
+.parent .child form a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.parent .child form .btnLogin button {
+    width: 93%;
+    margin: 10px 0px 0px 10px;
+    padding: 5px;
+    border: none;
+    background-color: white;
+}
+
+.parent .child p {
+    margin-left: 15px;
+}
+
+.parent .child p a{
+    text-decoration: none;
+    color: white;
+}
+
+.parent .child p a:hover{
+    text-decoration: underline;
+    color: black;;
+}
+
+.parent .child .btnSocial input{
+    width: 40%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
